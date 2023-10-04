@@ -1,5 +1,5 @@
 local Path = require("plenary.path")
-local tagutils = require("taglinks.tagutils")
+local tagutils = require("telekasten.utils.tags")
 
 local function find_all_tags(params)
   local M = require("telekasten")
